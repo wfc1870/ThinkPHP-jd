@@ -1,0 +1,1954 @@
+[ 2017-02-17T04:13:51+08:00 ] ::1 /jd/shop/index.php/Back/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2017-02-17T04:13:52+08:00 ] ::1 /jd/shop/index.php/Back/Admin/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-02-17T04:13:58+08:00 ] ::1 /jd/shop/index.php/Back/Admin/verifyImg/0.5876130154054454
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-02-17T04:14:04+08:00 ] ::1 /jd/shop/index.php/Back/Admin/checkCode.html?code=rvhd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-02-17T04:14:15+08:00 ] ::1 /jd/shop/index.php/Back/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0300s ]
+SQL: SELECT * FROM `tp_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '123456' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-02-17T04:14:16+08:00 ] ::1 /jd/shop/index.php/Back/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0061s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-02-17T04:14:17+08:00 ] ::1 /jd/shop/index.php/Back/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0114s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-02-17T04:14:21+08:00 ] ::1 /jd/shop/index.php/Back/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001518s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0080s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2017-02-17T04:14:22+08:00 ] ::1 /jd/shop/index.php/Back/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0067s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-02-17T04:14:22+08:00 ] ::1 /jd/shop/index.php/Back/Index/Back/Public/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-02-17T04:14:32+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0093s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001161s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-02-17T04:14:38+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0056s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0346s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000925s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000977s ]
+
+[ 2017-02-17T04:14:45+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0161s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-02-17T04:14:48+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0107s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_goods_pics` [ RunTime:0.1034s ]
+SQL: SELECT * FROM `tp_goods_pics` WHERE `goods_id` = 56  [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tp_goods_cat` WHERE `goods_id` = 56  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2017-02-17T04:14:50+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByTypeUpd.html?type_id=2&goods_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0057s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0362s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_is_sel,a.attr_sel_opt FROM tp_goods_attr g INNER JOIN tp_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '56'  [ RunTime:0.0127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-02-17T04:15:23+08:00 ] ::1 /jd/shop/index.php/Back/admin/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0058s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT m.*,r.role_name FROM tp_manager m LEFT JOIN tp_role r on m.mg_role_id=r.role_id   [ RunTime:0.1117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\20e393a8335e1fb9b74fbbd4462d2fad.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\20e393a8335e1fb9b74fbbd4462d2fad.php 第 33 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\20e393a8335e1fb9b74fbbd4462d2fad.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085717s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003132s ]
+
+[ 2017-02-17T04:15:37+08:00 ] ::1 /jd/shop/index.php/Back/Auth/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0062s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tp_auth` ORDER BY auth_path  [ RunTime:0.0373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+NOTIC: [8] Undefined index: goods_id D:\phpStudy\WWW\jd\shop\Runtime\Cache\Back\9272a2c93ea2a970630ed7a089d7bfb6.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001971s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2017-02-17T04:16:17+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0153s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2017-02-17T04:16:25+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0061s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2017-02-17T04:16:29+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist?&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0067s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 5,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-02-17T04:18:00+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0062s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2017-02-17T04:18:46+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0200s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001285s ]
+
+[ 2017-02-17T04:18:48+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0101s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2017-02-17T04:26:10+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist?&page=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0134s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 5,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000932s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-02-17T04:26:13+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0198s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2017-02-17T04:26:18+08:00 ] ::1 /jd/shop/index.php/Back/Order/dayin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-02-17T04:26:19+08:00 ] ::1 /jd/shop/index.php/Back/Order/look
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-02-17T04:26:20+08:00 ] ::1 /jd/shop/index.php/Back/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-02-17T04:26:21+08:00 ] ::1 /jd/shop/index.php/Back/Order/look
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-02-17T04:26:22+08:00 ] ::1 /jd/shop/index.php/Back/Order/dayin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-02-17T04:26:22+08:00 ] ::1 /jd/shop/index.php/Back/Order/look
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-02-17T04:26:23+08:00 ] ::1 /jd/shop/index.php/Back/Order/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载控制器:Order
+
+[ 2017-02-17T04:48:21+08:00 ] ::1 /jd/shop/index.php/Back/Category/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0075s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000905s ]
+
+[ 2017-02-17T04:48:22+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0089s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2017-02-17T04:55:14+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0132s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2017-02-17T04:55:14+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+
+[ 2017-02-17T04:55:26+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-02-17T04:56:13+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0056s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2017-02-17T04:56:13+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-02-17T04:56:13+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-02-17T04:59:20+08:00 ] ::1 /jd/shop/index.php/Back/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0067s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001099s ]
+
+[ 2017-02-17T04:59:22+08:00 ] ::1 /jd/shop/index.php/Back/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0692s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-02-17T04:59:25+08:00 ] ::1 /jd/shop/index.php/Back/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0101s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=0 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000959s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-02-17T04:59:25+08:00 ] ::1 /jd/shop/index.php/Back/Index/Back/Public/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-02-17T04:59:26+08:00 ] ::1 /jd/shop/index.php/Back/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0068s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2017-02-17T04:59:28+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0054s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-02-17T04:59:28+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-02-17T05:00:24+08:00 ] ::1 /jd/shop/index.php/Back/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0059s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-02-17T05:00:26+08:00 ] ::1 /jd/shop/index.php/Back/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0100s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001336s ]
+
+[ 2017-02-17T05:00:27+08:00 ] ::1 /jd/shop/index.php/Back/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0174s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-02-17T05:00:27+08:00 ] ::1 /jd/shop/index.php/Back/Index/Back/Public/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-02-17T05:00:28+08:00 ] ::1 /jd/shop/index.php/Back/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0058s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-02-17T05:00:29+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001036s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0070s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0061s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009255s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-02-17T05:00:29+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2017-02-17T05:01:35+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0075s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2017-02-17T05:01:35+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+
+[ 2017-02-17T05:01:40+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0061s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0058s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2017-02-17T05:01:40+08:00 ] ::1 /jd/shop/index.php/Back/Goods/Back/Public/img/no.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-02-17T05:03:29+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0057s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0065s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-02-17T05:09:41+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0131s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_pics` [ RunTime:0.1653s ]
+SQL: SELECT * FROM `tp_goods_pics` WHERE `goods_id` = 56  [ RunTime:0.0233s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `tp_goods_cat` WHERE `goods_id` = 56  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000375s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000513s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2017-02-17T05:09:42+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByTypeUpd.html?type_id=2&goods_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0062s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0067s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_is_sel,a.attr_sel_opt FROM tp_goods_attr g INNER JOIN tp_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '56'  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000851s ]
+
+[ 2017-02-17T05:09:51+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0139s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0649s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='商品分类测试',`goods_price`='12.00',`cat_id`='1',`goods_introduce`='',`goods_weight`='0',`is_qiang`='抢',`is_hot`='热销',`is_rec`='推荐',`is_new`='新品',`type_id`='2',`upd_time`='1487279391' WHERE `goods_id` = 56 [ RunTime:0.0837s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0576s ]
+SQL: DELETE FROM `tp_goods_attr` WHERE `goods_id` = 56 [ RunTime:0.0008s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('56','7','红') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('56','8','3') [ RunTime:0.0004s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('56','9','1') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('56','12','43') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0053s ]
+SQL: DELETE FROM `tp_goods_cat` WHERE `goods_id` = 56 [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_goods_cat` (`goods_id`,`cat_id`) VALUES ('56','11') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tp_goods_cat` (`goods_id`,`cat_id`) VALUES ('56','2') [ RunTime:0.0004s ]
+SQL: INSERT INTO `tp_goods_cat` (`goods_id`,`cat_id`) VALUES ('56','4') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2017-02-17T05:09:55+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0101s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2017-02-17T05:11:19+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0170s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods_pics` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `tp_goods_pics` WHERE `goods_id` = 56  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tp_goods_cat` WHERE `goods_id` = 56  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-02-17T05:11:21+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByTypeUpd.html?type_id=2&goods_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0078s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0074s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_is_sel,a.attr_sel_opt FROM tp_goods_attr g INNER JOIN tp_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '56'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-02-17T06:43:51+08:00 ] ::1 /jd/shop/index.php/Back/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0417s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2017-02-17T06:43:53+08:00 ] ::1 /jd/shop/index.php/Back/Admin/VerifyImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0422s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2017-02-17T06:43:59+08:00 ] ::1 /jd/shop/index.php/Back/Admin/checkCode.html?code=pubw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0064s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002125s ]
+
+[ 2017-02-17T06:44:01+08:00 ] ::1 /jd/shop/index.php/Back/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0074s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_manager` WHERE `mg_name` = 'admin' AND `mg_pwd` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-02-17T06:44:02+08:00 ] ::1 /jd/shop/index.php/Back/Admin/checkCode.html?code=pubw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0212s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-02-17T06:44:03+08:00 ] ::1 /jd/shop/index.php/Back/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0090s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-02-17T06:44:04+08:00 ] ::1 /jd/shop/index.php/Back/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0213s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001148s ]
+
+[ 2017-02-17T06:44:05+08:00 ] ::1 /jd/shop/index.php/Back/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0311s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_auth` [ RunTime:0.0645s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=0 )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_auth` WHERE ( auth_level=1 )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-02-17T06:44:05+08:00 ] ::1 /jd/shop/index.php/Back/Index/Back/Public/img/menu_icon.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-02-17T06:44:08+08:00 ] ::1 /jd/shop/index.php/Back/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0143s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-02-17T06:44:29+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0422s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0974s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-02-17T06:45:13+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByType.html?type_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0141s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_attribute` [ RunTime:0.0650s ]
+SQL: SELECT * FROM `tp_attribute` WHERE `type_id` = 1  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002311s ]
+
+[ 2017-02-17T06:45:30+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0125s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0142s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\jd\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `tp_goods` (`goods_name`,`goods_price`,`cat_id`,`goods_introduce`,`goods_weight`,`is_hot`,`type_id`,`add_time`,`upd_time`,`goods_big_logo`,`goods_small_logo`) VALUES ('a','12','2','','12','热销','1','1487285129','1487285129','./Common/Uploads/2017-02-17/58a62b8a85e56.png','./Common/Uploads/2017-02-17/small_58a62b8a85e56.png') [ RunTime:0.1259s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0758s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','1','12') [ RunTime:0.0014s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','2','32') [ RunTime:0.0006s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','3','23') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','4','L') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','5','S') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','6','A') [ RunTime:0.0011s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','10','red') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','11','321') [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0055s ]
+SQL: INSERT INTO `tp_goods_cat` (`goods_id`,`cat_id`) VALUES ('57','0') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_goods_cat` (`goods_id`,`cat_id`) VALUES ('57','6') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046399s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2017-02-17T06:45:34+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001855s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0192s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.1027s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003396s ]
+
+[ 2017-02-17T06:46:09+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0088s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0149s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001618s ]
+
+[ 2017-02-17T06:46:40+08:00 ] ::1 /jd/shop/index.php/Back/Goods/tianjia
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0130s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0124s ]
+SQL: INSERT INTO `tp_goods` (`goods_name`,`goods_price`,`cat_id`,`goods_introduce`,`goods_weight`,`is_rec`,`type_id`,`add_time`,`upd_time`) VALUES ('gg','55','8','','0','推荐','0','1487285200','1487285200') [ RunTime:0.1008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001171s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2017-02-17T06:46:44+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002565s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0085s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-02-17T06:50:25+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/56.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0114s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_goods_pics` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `tp_goods_pics` WHERE `goods_id` = 56  [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `tp_goods_cat` WHERE `goods_id` = 56  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001354s ]
+
+[ 2017-02-17T06:50:26+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByTypeUpd.html?type_id=2&goods_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0049s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 56 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0053s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_is_sel,a.attr_sel_opt FROM tp_goods_attr g INNER JOIN tp_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '56'  [ RunTime:0.0135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001206s ]
+
+[ 2017-02-17T06:50:44+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/57.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0098s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 57 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_pics` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_goods_pics` WHERE `goods_id` = 57  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `tp_goods_cat` WHERE `goods_id` = 57  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-02-17T06:50:45+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByTypeUpd.html?type_id=1&goods_id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0143s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 57 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0078s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_is_sel,a.attr_sel_opt FROM tp_goods_attr g INNER JOIN tp_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '57'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001510s ]
+
+[ 2017-02-17T06:50:49+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/57.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0124s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0086s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='a',`goods_price`='12.00',`cat_id`='2',`goods_introduce`='',`goods_weight`='0',`is_qiang`='抢',`is_hot`='热销',`type_id`='1',`upd_time`='1487285449' WHERE `goods_id` = 57 [ RunTime:0.0635s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0057s ]
+SQL: DELETE FROM `tp_goods_attr` WHERE `goods_id` = 57 [ RunTime:0.0120s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','1','12') [ RunTime:0.0004s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','2','32') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','3','23') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','4','L') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','5','S') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','6','A') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','10','red') [ RunTime:0.0004s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('57','11','321') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0075s ]
+SQL: DELETE FROM `tp_goods_cat` WHERE `goods_id` = 57 [ RunTime:0.0004s ]
+SQL: INSERT INTO `tp_goods_cat` (`goods_id`,`cat_id`) VALUES ('57','0') [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_goods_cat` (`goods_id`,`cat_id`) VALUES ('57','6') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2017-02-17T06:50:53+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0116s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2017-02-17T06:51:24+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0118s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 55 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `tp_goods_pics` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `tp_goods_pics` WHERE `goods_id` = 55  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `tp_goods_cat` WHERE `goods_id` = 55  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-02-17T06:51:26+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByTypeUpd.html?type_id=1&goods_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.1207s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 55 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0077s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_is_sel,a.attr_sel_opt FROM tp_goods_attr g INNER JOIN tp_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '55'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2017-02-17T06:51:30+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/55.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0183s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0129s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='属性测试',`goods_price`='123321.00',`cat_id`='0',`goods_introduce`='&lt;p&gt;34234&lt;br/&gt;&lt;/p&gt;',`goods_weight`='0',`is_new`='新品',`type_id`='1',`upd_time`='1487285490' WHERE `goods_id` = 55 [ RunTime:0.1222s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0165s ]
+SQL: DELETE FROM `tp_goods_attr` WHERE `goods_id` = 55 [ RunTime:0.0020s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','1','4') [ RunTime:0.0008s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','2','5') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','3','6') [ RunTime:0.0008s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','4','L') [ RunTime:0.0008s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','5','S') [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','6','A') [ RunTime:0.0009s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','10','red') [ RunTime:0.0012s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','10','red') [ RunTime:0.0008s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','10','red') [ RunTime:0.0005s ]
+SQL: INSERT INTO `tp_goods_attr` (`goods_id`,`attr_id`,`attr_value`) VALUES ('55','11','54个') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0072s ]
+SQL: DELETE FROM `tp_goods_cat` WHERE `goods_id` = 55 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001126s ]
+
+[ 2017-02-17T06:51:34+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0064s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2017-02-17T06:56:17+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/54.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0098s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 54 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_pics` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `tp_goods_pics` WHERE `goods_id` = 54  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_type` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `tp_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_category` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `tp_category` ORDER BY cat_path  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `tp_goods_cat` WHERE `goods_id` = 54  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-02-17T06:56:18+08:00 ] ::1 /jd/shop/index.php/Back/Goods/getAttributeByTypeUpd.html?type_id=2&goods_id=54
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0079s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `tp_goods` WHERE `goods_id` = 54 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0070s ]
+SQL: SELECT g.attr_id,g.attr_value,a.attr_name,a.attr_is_sel,a.attr_sel_opt FROM tp_goods_attr g INNER JOIN tp_attribute a on g.attr_id=a.attr_id  WHERE `goods_id` = '54'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2017-02-17T06:56:22+08:00 ] ::1 /jd/shop/index.php/Back/Goods/upd/goods_id/54.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0137s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0124s ]
+SQL: UPDATE `tp_goods` SET `goods_name`='畜生',`goods_price`='12.00',`cat_id`='0',`goods_introduce`='',`goods_weight`='0',`is_hot`='热销',`type_id`='2',`upd_time`='1487285782' WHERE `goods_id` = 54 [ RunTime:0.0520s ]
+SQL: SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.0074s ]
+SQL: DELETE FROM `tp_goods_attr` WHERE `goods_id` = 54 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods_cat` [ RunTime:0.0059s ]
+SQL: DELETE FROM `tp_goods_cat` WHERE `goods_id` = 54 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2017-02-17T06:56:25+08:00 ] ::1 /jd/shop/index.php/Back/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `tp_manager` [ RunTime:0.0207s ]
+SQL: SELECT r.role_auth_ac FROM tp_manager m INNER JOIN tp_role r on m.mg_role_id=r.role_id  WHERE `mg_id` = '3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` WHERE `is_del` = '不删除' ORDER BY goods_id desc LIMIT 0,5   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+

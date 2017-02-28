@@ -1,0 +1,45 @@
+[ 2017-01-08T14:34:01+08:00 ] ::1 /jd/shop/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023475s ]
+
+[ 2017-01-08T14:34:02+08:00 ] ::1 /jd/shop/index.php/Home/User/images/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+
+[ 2017-01-08T14:43:09+08:00 ] ::1 /jd/shop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000951s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+

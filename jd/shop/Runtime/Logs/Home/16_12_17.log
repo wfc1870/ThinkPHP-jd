@@ -1,0 +1,511 @@
+[ 2016-12-17T23:29:11+08:00 ] ::1 /jd/shop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.083496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.083565s ]
+
+[ 2016-12-17T23:29:21+08:00 ] ::1 /jd/shop/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-12-17T23:29:21+08:00 ] ::1 /jd/shop/index.php/Home/User/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-12-17T23:29:21+08:00 ] ::1 /jd/shop/index.php/Home/User/images/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-12-17T23:29:22+08:00 ] ::1 /jd/shop/index.php/Home/User/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-12-17T23:29:24+08:00 ] ::1 /jd/shop/index.php/Home/User/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-12-17T23:29:24+08:00 ] ::1 /jd/shop/index.php/Home/User/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+
+[ 2016-12-17T23:29:24+08:00 ] ::1 /jd/shop/index.php/Home/User/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-12-17T23:29:31+08:00 ] ::1 /jd/shop/index.php/Home/User/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+ERR: 非法操作:index
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/style/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002070s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/style/global.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/style/header.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/style/index.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/js/jquery-1.8.3.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:48+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/style/bottomnav.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/style/footer.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/js/header.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+ERR: 无法加载控制器:Home
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/view_list2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/index_slide1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/view_list3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/index_slide3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/index_slide2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002540s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/index_slide6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/ad.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/holiday.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/scenic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/lottery.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/sanguo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001295s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/wulin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/taohua.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/crazy1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/crazy2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/crazy4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/crazy3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+
+[ 2016-12-17T23:29:49+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/crazy5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/hot1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/hot2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/recommend1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/hot3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/recommend2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/recommend3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/new2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/new1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/new3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/guess1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/guess3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/guess2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002496s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/viewsonic.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/hpG4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/notebook.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002272s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/thinkpad%20e420.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/samsung.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001384s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/acer4739.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/samsung6800.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/lh531.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/qinghuax2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/dell.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/acer.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/fujitsu.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001262s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/hp.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/samsung.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000742s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/lenove.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/seagate.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/intel.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/canon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/xin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/kexin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/dlink.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/beian.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/police.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/view_list1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/index_slide4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+
+[ 2016-12-17T23:29:50+08:00 ] ::1 /jd/shop/index.php/Home/Home/Public/images/index_slide5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-12-17T23:29:59+08:00 ] ::1 /jd/shop/index.php/Home/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载控制器:Index.php
+
+[ 2016-12-17T23:30:24+08:00 ] ::1 /jd/shop/index.php/Home/Back
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载控制器:Back
+

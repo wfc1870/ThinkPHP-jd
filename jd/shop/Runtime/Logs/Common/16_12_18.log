@@ -1,0 +1,36 @@
+[ 2016-12-18T00:11:25+08:00 ] ::1 /jd/shop/index.php/Goods/tianjia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-12-18T00:11:44+08:00 ] ::1 /jd/shop/index.php/Goods/tianjia.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-12-18T00:13:26+08:00 ] ::1 /jd/shop/index.php/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-12-18T00:50:49+08:00 ] ::1 /jd/shop/index.php/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-12-18T00:52:03+08:00 ] ::1 /jd/shop/index.php/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Goods
+
+[ 2016-12-18T00:52:04+08:00 ] ::1 /jd/shop/index.php/Goods/showlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:Goods
+

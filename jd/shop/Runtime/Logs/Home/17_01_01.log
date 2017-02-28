@@ -1,0 +1,25 @@
+[ 2017-01-01T16:11:04+08:00 ] ::1 /jd/shop/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020764s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.027075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.027122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023509s ]
+
+[ 2017-01-01T16:11:05+08:00 ] ::1 /jd/shop/index.php/Home/User/images/checkcode1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+
